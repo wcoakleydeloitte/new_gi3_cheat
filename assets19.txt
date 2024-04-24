@@ -1,0 +1,506 @@
+1: What is the specific field of science or technology in which the R&D will be undertaken?
+
+The specific field of science or technology in which the R&D will be undertaken is software engineering, with a particular focus on virtual reality (VR) and 3D modeling for the construction industry. Our team is developing a VR application that can provide real-time, photorealistic, and finely detailed representations of construction designs. This involves the use of tools like Unreal Gaming engine and 3DS Max, and the use of Nvidia's CUDA set for parallelism computation. We are also working on adding support for Earth curvature in 3DS Max, a significant challenge due to the precision required in the construction industry. Furthermore, we are automating a previously manual process of adding offsets to relevant geometries and polygons, a complex task due to its impact on performance. 
+
+In addition to these technical challenges, we are also addressing several legal and regulatory considerations. These include design error liability, safety concerns on and off the construction site, data privacy, and intellectual property concerns. Securing appropriate software licenses is crucial for building and deploying our VR applications, as these licenses ensure compliance and provide legal protection. We are also considering the ownership of VR and AR generated data, data privacy, and intellectual property concerns in our design and construction contracts to avoid potential litigation. 
+
+The current regulatory landscape for AR/VR consists of a patchwork of state and national policies, which leaves critical gaps for some privacy and security issues. We are actively working to navigate this landscape and ensure our application is compliant with all relevant regulations. One of the main challenges we face is the lack of interoperability between Building Information Modeling (BIM) systems and AR and VR models, which is a key consideration for regulatory compliance. Despite these challenges, we believe our work in this field is innovative and eligible for R&D tax relief.
+
+Research Questions
+
+What are the latest advancements in the field of software engineering, specifically in the area of virtual reality (VR) and 3D modeling for the construction industry
+
+What are the key competitors and their offerings in the VR and 3D modeling space for the construction industry
+
+What are the specific features and capabilities of the Unreal Gaming engine and 3DS Max in relation to VR and 3D modeling
+
+What are the potential applications and limitations of Nvidia's CUDA set for parallelism computation in the context of VR and 3D modeling for the construction industry
+
+What are the technical challenges and solutions associated with adding support for Earth curvature in 3DS Max
+
+What are the implications and potential benefits of automating the process of adding offsets to relevant geometries and polygons in 3D modeling
+
+What is the impact of this automation on the performance of the VR application being developed
+
+What are the industry standards and best practices for VR and 3D modeling in the construction industry
+
+What are the potential market opportunities and trends in the VR and 3D modeling space for the construction industry
+
+What are the legal and regulatory considerations for developing and deploying VR applications in the construction industry
+
+2: What was the baseline level of knowledge or capability did the business have prior to undertaking this R&D activity?
+
+At the commencement of the project, the company possessed a foundational understanding of tools such as the Unreal Gaming engine, 3DS Max, and Nvidia's CUDA set, with the intention of leveraging GPUs for parallelism. The project involved extending these tools, filling gaps, and maximizing the use of GPUs to create a detailed model of the site and architectural specifications using the Unreal Engine. However, the company discovered that gaming tools, while initially appearing suitable, diverged from their need for photorealistic, finely detailed representations. This was due to gaming engines prioritizing performance over photorealism, and the coarse-grained geometry of gaming engines contrasting with their need for fine-grained geometry. 
+
+The company's pursuit of realistic representation for the construction industry necessitated a high level of detail, which was not a priority in the gaming world that focuses on the physics engine and performance, not on presenting geometries in real time. When the Unreal Engine was used for different geometries and vertices, the engine significantly slowed, presenting a problem they had to address.
+
+The specific gap in the knowledge or capability that existed at the start of the project was the Unreal Engine's inability to efficiently handle dense geometries and polygon computation. The current technology was limiting them from completing the project because the gaming engines prioritized performance over photorealism, which was not suitable for their need for photorealistic, finely detailed representations. 
+
+Externally available knowledge or capability included the Unreal Gaming engine, 3DS Max, and Nvidia's CUDA set. However, these tools had limitations and were not fully equipped to handle their specific needs. At the start of the R&D project, computer science or technology couldn’t efficiently handle dense geometries and polygon computation in a way that would allow for photorealistic, finely detailed representations. 
+
+Upon further research, it was found that leading companies in the field of photorealistic rendering such as The Motion Tree, Webrotate 360, PICSERA, VRender, Arqui 9, Brick Visual, Binyan Studios, The Boundary, Mir, Luxigon, and Kilograph, offer key products or services including 3D imagery, 3D rendering services, 3D visualization, and 3D mapping. Photorealistic rendering is a process that involves developing images from 3D models, with the software used generating an image that appears real and life-like. This technique uses 3D rendering software to generate lifelike images and animations using physically based virtual lights
+
+Research Questions
+
+What is the Unreal Gaming engine and what are its primary uses and features
+
+What is 3DS Max and what are its primary uses and features
+
+What is Nvidia's CUDA set and what are its primary uses and features
+
+What are the key differences between gaming engines and engines designed for photorealistic, finely detailed representations
+
+What are the specific requirements for creating photorealistic, finely detailed representations in the construction industry
+
+What are the current advancements in technology for handling dense geometries and polygon computation efficiently
+
+What are the alternative tools or technologies available that prioritize photorealism over performance
+
+What are the specific capabilities of Unreal Engine in handling different geometries and vertices
+
+What are the current trends and future predictions in the field of computer graphics and photorealistic rendering
+
+What are the leading companies in the field of photorealistic rendering and what are their key products or services
+
+3: What advance in the scientific or technical knowledge did the business aim to achieve?
+
+The business aimed to achieve a significant advancement in the field of virtual reality (VR) technology, specifically for the construction industry. The primary focus was to develop a VR platform capable of rendering highly detailed and accurate architectural models in real-time, which is a significant challenge due to the computational resources required. 
+
+The business sought to overcome the limitations of existing gaming engines, such as Unreal Engine, which prioritize performance over photorealism. The team aimed to enhance these engines to handle fine-grained geometry, which is crucial for creating photorealistic representations in the construction industry. 
+
+To automate the process of adding offsets to relevant geometries and polygons, a task that was previously done manually and was time-consuming, the business developed new algorithms and techniques. These included the use of Polygon offset, Boost Polygon library, Maximum Z slope, offsetDistance, Maximum Offset Covering, grid.polyoffset(), grid.polylineoffset(), Offset Edge Loop Tool, and Set Vertex Position dialog. The purpose of adding offsets to relevant geometries and polygons is to allow the application to specify a depth offset with two parameters, factor and units. Factor scales the maximum Z slope, and the offset operation constructs offset polygons at distance offsetDistance for each face of the current shape's geometry. 
+
+The business also sought to develop a solution for handling the Earth's curvature in 3D space, a feature not supported by existing tools like 3DS Max. This required the development of new components in C++, exposed to Max script, the programming language for 3DS Max.
+
+The advancements sought by the business are considered genuine and non-trivial by competent professionals due to the complexity of the challenges involved and the lack of existing solutions in the field. The advancements demonstrate a new or appreciable improvement over the industry baseline by enabling the creation of highly detailed and accurate VR models in real-time, a capability not currently offered by existing VR platforms.
+
+The business plans to release tools on GitHub and discuss their work in a trade publication, further contributing to the advancement of knowledge in the field. This will also differentiate the company from its competitors and set a new industry standard.
+
+Research Questions
+
+What are the current capabilities of existing VR platforms in rendering highly detailed and accurate architectural models in real-time
+
+What are the limitations of gaming engines like Unreal Engine in terms of handling fine-grained geometry and photorealism
+
+What are the existing methods for adding offsets to geometries and polygons in VR platforms? How time-consuming is this process
+
+What solutions are currently available for handling the Earth's curvature in 3D space? Do tools like 3DS Max support this feature
+
+What are the existing solutions for grouping geometries or polygons with similar characteristics and applying offsets to them in VR platforms
+
+What is the industry baseline for creating highly detailed and accurate VR models in real-time
+
+Are there any existing VR platforms that have released tools on GitHub or discussed their work in trade publications
+
+What are the advancements in VR technology for the construction industry that have been considered genuine and non-trivial by competent professionals
+
+What are the new components in C++ that are required for handling the Earth's curvature in 3D space? Are these components exposed to Max script, the programming language for 3DS Max
+
+What are the new algorithms and techniques required for automating the process of adding offsets to relevant geometries and polygons
+
+4: What technological uncertainties did the business face?
+
+The business faced several technological uncertainties in their pursuit of scientific progress, particularly in the fields of virtual reality, gaming engines, and GPU utilization. One of the main challenges was the development of a virtual reality support tool for the construction industry, specifically for the Chinese market. The tool aimed to provide real-time envisioning of designs, which required a high level of precision and detail. 
+
+The business used tools like Unreal Gaming engine and 3DS Max, aiming to utilize GPUs for parallelism. However, they encountered significant challenges due to the coarse-grained geometry of gaming engines, which contrasted with their need for fine-grained geometry. The gaming engines prioritized performance over photorealism, which was not suitable for their needs. When they used the Unreal Engine for different geometries and vertices, the engine slowed significantly, presenting a technological barrier to their progress.
+
+Another technological uncertainty was the handling of dense geometries using the Unreal Engine. The business aimed to group geometries or polygons with similar characteristics and then apply offsets to the lead node and its cluster members. However, adding offsets made the engine even slower, presenting another technological challenge.
+
+Furthermore, the business faced challenges with the NVIDIA tool chain. There were parts of the NVIDIA tool chain that were not working properly, and the business had to address this by improving performance. However, this did not solve the problem entirely, and they had to build out the deficits themselves to move their project forward.
+
+In addition, the business had to deal with the problem of Earth curvature, which required a high level of precision due to its material impact on calculations over 20 or 30 miles. They built their own components in 3DS Max using C++, but encountered many problems in the process.
+
+These technological uncertainties significantly affected the overall progress of the business. The uncertainties created challenges for managers to rely on established strategies, necessitating cost-cutting measures and the development of new strategies to address broader factors. The uncertainties also impacted the business's ability to anticipate and prepare for potential disruptions, and to pivot when unforeseen events occurred. This was particularly evident in the business's struggles with the Unreal Engine and NVIDIA tool chain, which required them to build out deficits and develop new components. The uncertainties also had a material impact on the business's financial performance, changing consumer preferences, and the broader factors impacting the business. Despite these challenges, the business continued to strive for scientific progress, demonstrating resilience and adaptability in the face of technological uncertainty.
+
+Research Questions
+
+1. What are the specific challenges faced in the development of a virtual reality support tool for the construction industry in the Chinese market
+
+2. What are the limitations of using Unreal Gaming engine and 3DS Max for the development of a high-precision virtual reality tool
+
+3. How does the coarse-grained geometry of gaming engines affect the performance of the virtual reality tool
+
+4. What are the issues encountered when using the Unreal Engine for different geometries and vertices
+
+5. What are the difficulties faced in handling dense geometries using the Unreal Engine
+
+6. What are the problems encountered with the NVIDIA tool chain and how did they impact the project
+
+7. What are the challenges faced in dealing with the problem of Earth curvature in the context of this project
+
+8. What are the issues encountered when building components in 3DS Max using C
+
+9. How have these technological uncertainties affected the overall progress of the business in the fields of virtual reality, gaming engines, and GPU utilization
+
+5: How did the business plan to overcome the technical uncertainties?
+
+The business planned to overcome the technical uncertainties by focusing on scientific and technological advancements in the field of software engineering, specifically in the areas of virtual reality, photogrammetry, and high-resolution photography. The main technical challenge was the precision required in architectural design for the construction industry, particularly in maintaining the skyline and considering the Earth's curvature. 
+
+The business team attempted to resolve this by using tools like Unreal Gaming engine and 3DS Max, aiming to utilize GPUs for parallelism. They employed Nvidia's CUDA set for this. However, they found that the gaming tools prioritized performance over photorealism, which was not suitable for their needs. To overcome this, they extended these tools, filled gaps, and leveraged GPUs to create a detailed model of the site and architecture specifications. 
+
+However, the engine slowed significantly when used for different geometries and vertices, presenting a problem they had to contend with. In response to this, they focused on using Nvidia's latest chips, which are expensive but work well for parallelization computation. They did a lot of work in C++ to deal with this. However, they encountered many problems and had to contact the vendor for updates and fixes. 
+
+In addition, they also worked on the Earth curvature problem, automating a previously manual process. They added offsets to relevant geometries and polygons. However, this didn't solve the problem as it slowed down the performance. In the end, they realized that not all customers required absolute precision across the entire landscape all the time. This allowed them to process geometries smarter, grouping geometries or polygons with similar characteristics. Once grouped, their computation points interacted with the lead node of each cluster. They then applied offsets to the lead node and its cluster members. 
+
+The outcomes of these attempts were that they were able to improve the performance but not enough to make the product usable. They were also able to build support for Earth curvature in 3DS Max, but this also had its limitations. However, they plan to release tools on GitHub and discuss their travels in a trade publication. 
+
+The specific topics that the business plans to discuss in the trade publication will depend on the particular trade magazine or journal. They intend to share their experiences and challenges in overcoming the technical uncertainties, the strategies they employed, and the outcomes of their attempts. This will include their work on the Earth curvature problem, their use of Nvidia's latest chips and the Unreal Gaming engine, and their efforts to improve performance and precision in architectural
+
+Research Questions
+
+What are the specific scientific and technological advancements in the field of software engineering that the business is focusing on
+
+How effective are the Unreal Gaming engine and 3DS Max in addressing the precision required in architectural design for the construction industry
+
+How does the use of Nvidia's CUDA set contribute to the resolution of the technical challenges faced by the business
+
+What are the specific extensions and modifications made to the gaming tools to achieve photorealism
+
+How does the use of Nvidia's latest chips improve the performance of the engine when used for different geometries and vertices
+
+What specific work was done in C++ to deal with the slowdown in performance
+
+How effective was the automation of the Earth curvature problem in improving the precision of the architectural design
+
+What is the impact of grouping geometries or polygons with similar characteristics on the performance of the engine
+
+How effective was the application of offsets to the lead node and its cluster members in improving the precision of the architectural design
+
+What are the limitations of the support for Earth curvature in 3DS Max
+
+What are the specific tools that the business plans to release on GitHub and what are their functionalities
+
+What are the specific topics that the business plans to discuss in the trade publication
+
+
+
+
+Appendix
+
+Question 1
+
+What are the latest advancements in the field of software engineering, specifically in the area of virtual reality (VR) and 3D modeling for the construction industry
+
+The main pillars of modern software development are cloud computing, microservices, blockchain, IoT, AI, augmented reality, the LCNC approach, and 5G connectivity. Among the leading programming tools are Python, TensorFlow, and React Native. VR technology is heading toward practical implementation in the construction industry. The idea behind it is to see what a structure looks like ... From initial planning and design to project execution and safety training, VR proves itself a robust ally. Let's delve a little deeper into the ... 1. Building Information Modeling (BIM) · 2. Drones · 3. Virtual and Augmented Reality · 4. Prefabrication · 5. Robotics and automation. ... 3D modeling software to create virtual representations of buildings. These ... construction companies to keep up with the latest advancements. Discover how virtual reality is transforming the construction industry. Explore the revolutionary impact on design and visualization. From 3D modeling to artificial intelligence, this article explores the innovations that are reshaping the construction sector. Digital Reality ... VR technology allows for the building of 3D models that will contain information about the future building and provide an immersive walking ... Augmented and virtual reality (AR/VR) allows architects to take their designs to a whole new
+
+Source Links:
+
+https://www.intellectsoft.net/blog/8-emerging-construction-technology-trends/
+
+https://pixelplex.io/blog/ar-vr-in-construction/
+
+https://www.cadcrowd.com/blog/how-3d-virtual-reality-rendering-is-shaping-the-construction-industry/
+
+https://utilitiesone.com/the-use-of-virtual-reality-in-designing-and-constructing-civil-engineering-projects
+
+https://utilitiesone.com/the-role-of-virtual-reality-in-construction-worker-training
+
+https://www.gcelab.com/blog/virtual-reality-in-construction-industry
+
+https://www.constructconnect.com/blog/technology-reshaping-construction-industry
+
+https://www.orientsoftware.com/blog/construction-technology-trends/
+
+https://www.devicemagic.com/blog/6-types-of-construction-technology-you-will-use-in-the-future/
+
+https://www.sciencedirect.com/science/article/pii/S1474034620300914
+
+Thought Process:
+
+The main pillars of modern software development are cloud computing, microservices, blockchain, IoT, AI, augmented reality, the LCNC approach, and 5G connectivity. Among the leading programming tools are Python, TensorFlow, and React Native. VR technology is heading toward practical implementation in the construction industry. The idea behind it is to see what a structure looks like ... From initial planning and design to project execution and safety training, VR proves itself a robust ally. Let's delve a little deeper into the ... 1. Building Information Modeling (BIM) · 2. Drones · 3. Virtual and Augmented Reality · 4. Prefabrication · 5. Robotics and automation. ... 3D modeling software to create virtual representations of buildings. These ... construction companies to keep up with the latest advancements. Discover how virtual reality is transforming the construction industry. Explore the revolutionary impact on design and visualization. From 3D modeling to artificial intelligence, this article explores the innovations that are reshaping the construction sector. Digital Reality ... VR technology allows for the building of 3D models that will contain information about the future building and provide an immersive walking ... Augmented and virtual reality (AR/VR) allows architects to take their designs to a whole new
+
+Sub-Question: What are the current trends in software engineering?
+        Intermediate Answer: The main pillars of modern software development are cloud computing, microservices, blockchain, IoT, AI, augmented reality, the LCNC approach, and 5G connectivity. Among the leading programming tools are Python, TensorFlow, and React Native.
+
+Sub-Question: What are the latest advancements in the field of virtual reality (VR) and 3D modeling for the construction industry?
+        Intermediate Answer: VR technology is heading toward practical implementation in the construction industry. The idea behind it is to see what a structure looks like ... From initial planning and design to project execution and safety training, VR proves itself a robust ally. Let's delve a little deeper into the ... 1. Building Information Modeling (BIM) · 2. Drones · 3. Virtual and Augmented Reality · 4. Prefabrication · 5. Robotics and automation. ... 3D modeling software to create virtual representations of buildings. These ... construction companies to keep up with the latest advancements. Discover how virtual reality is transforming the construction industry. Explore the revolutionary impact on design and visualization. From 3D modeling to artificial intelligence, this article explores the innovations that are reshaping the construction sector. Digital Reality ... VR technology allows for the building of 3D models that will contain information about the future building and provide an immersive walking ... Augmented and virtual reality (AR/VR) allows architects to take their designs to a whole new plane, opening up far-reaching opportunities for ... Virtual reality takes 3D modeling to new heights by giving designers the opportunity to work with vivid and lifelike structures, instead of the age-old scaled ... Stay Up to Date on the Latest Advances in Construction Technology · 1. Augmented Reality (AR) to Improve Training and Safety on Jobsites · 2. Virtual Reality (VR) ...
+
+What are the key competitors and their offerings in the VR and 3D modeling space for the construction industry
+
+The 3D model with integrated ... The ability to walk through the virtual space and experiencing the real-life settings enables to discover design error. BIM is a 3D modeling technology that allows construction professionals to create a virtual representation of a building before it is constructed ... Building Information Modeling (BIM) is an important capability for AEC companies ... space as the winners bubble to the top. Share. It is free for the architecture industry and is frequently used to visualize spaces and render architectural models in immersive environments. This tool enables ... Fashion companies regularly use 3D CAD fashion design services to ... Industry Rates for BIM Services & Building Information Modeling Costs. Internally, they used a composite of design models, construction models, and a fabrication model of the primary feature of the project (the ... ... model over printed construction plans and get a 3D version. The app allows you to interact with the model in a number of ways. You can zoom ... ... space within the real estate industry, offering ... design firms and training companies, it will likely change the construction process forever. Design Visualization and Immersive 3D Modeling: VR and AR can greatly enhance design visualization in the construction industry. Architects ... ... models and VR companies too
+
+Source Links:
+
+https://www.xrtoday.com/virtual-reality/the-top-xr-vendors-majoring-in-construction-in-2022/
+
+https://www.business.com/articles/how-virtual-reality-is-changing-construction/
+
+https://program-ace.com/blog/vr-in-construction/
+
+https://www.trustradius.com/virtual-reality
+
+https://www.linkedin.com/pulse/how-ar-vr-transforming-construction-
+
+https://www.elogictech.com/blog/survive-the-competition-in-the-construction-industry-with-bim-and-vr
+
+https://fitsmallbusiness.com/matterport-competitors/
+
+https://tracxn.com/d/sectors/ar-vr-in-real-estate/__aCE-gqjQmbyfih9B6cbBDUg2_q5DekDId6tSMNoK77Q/companies
+
+https://www.viatechnik.com/resources/50-virtual-reality-technologies-in-architecture-and-engineering/
+
+https://www.bigrentz.com/blog/augmented-reality-construction
+
+Thought Process:
+
+The 3D model with integrated ... The ability to walk through the virtual space and experiencing the real-life settings enables to discover design error. BIM is a 3D modeling technology that allows construction professionals to create a virtual representation of a building before it is constructed ... Building Information Modeling (BIM) is an important capability for AEC companies ... space as the winners bubble to the top. Share. It is free for the architecture industry and is frequently used to visualize spaces and render architectural models in immersive environments. This tool enables ... Fashion companies regularly use 3D CAD fashion design services to ... Industry Rates for BIM Services & Building Information Modeling Costs. Internally, they used a composite of design models, construction models, and a fabrication model of the primary feature of the project (the ... ... model over printed construction plans and get a 3D version. The app allows you to interact with the model in a number of ways. You can zoom ... ... space within the real estate industry, offering ... design firms and training companies, it will likely change the construction process forever. Design Visualization and Immersive 3D Modeling: VR and AR can greatly enhance design visualization in the construction industry. Architects ... ... models and VR companies too
+
+Sub-Question: What are the key competitors in the VR and 3D modeling space for the construction industry?
+        Intermediate Answer: The 3D model with integrated ... The ability to walk through the virtual space and experiencing the real-life settings enables to discover design error. BIM is a 3D modeling technology that allows construction professionals to create a virtual representation of a building before it is constructed ... Building Information Modeling (BIM) is an important capability for AEC companies ... space as the winners bubble to the top. Share. It is free for the architecture industry and is frequently used to visualize spaces and render architectural models in immersive environments. This tool enables ... Fashion companies regularly use 3D CAD fashion design services to ... Industry Rates for BIM Services & Building Information Modeling Costs. Internally, they used a composite of design models, construction models, and a fabrication model of the primary feature of the project (the ... ... model over printed construction plans and get a 3D version. The app allows you to interact with the model in a number of ways. You can zoom ... ... space within the real estate industry, offering ... design firms and training companies, it will likely change the construction process forever. Design Visualization and Immersive 3D Modeling: VR and AR can greatly enhance design visualization in the construction industry. Architects ... ... models and VR companies too are aligning their innovation practices with construction industry needs ... The primary usage of BIM-ready 3D models ...
+
+What are the specific features and capabilities of the Unreal Gaming engine and 3DS Max in relation to VR and 3D modeling
+
+The Unreal Gaming engine features Nanite, Lumen, World Partition system, MetaSounds, and animations, and 3DS Max offers capabilities for photorealistic rendering, virtual reality, and 3D modeling.
+
+Source Links:
+
+https://ilogos.biz/is-unreal-engine-good-for-3d-modeling/
+
+https://polydin.com/unreal-engine-3d-modeling/
+
+https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/XRDevelopment/VR/VRPerformanceAndProfiling/PerformanceFeatures
+
+https://docs.unrealengine.com/5.3/en-US/engine-feature-examples-for-unreal-engine/
+
+https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/VRMode
+
+https://docs.unrealengine.com/5.0/en-US/using-datasmith-with-3ds-max-in-unreal-engine
+
+https://docs.unrealengine.com/5.3/en-US/rendering-features-for-mobile-games-in-unreal-engine
+
+https://docs.unrealengine.com/5.3/en-US/developing-for-xr-experiences-in-unreal-engine
+
+https://en.wikipedia.org/wiki/Unreal_Engine
+
+https://ejaw.net/3d-game-development-tools-unreal-engine-vs-competitors/
+
+Thought Process:
+
+The Unreal Gaming engine features Nanite, Lumen, World Partition system, MetaSounds, and animations, and 3DS Max offers capabilities for photorealistic rendering, virtual reality, and 3D modeling.
+
+Sub-Question: What is the Unreal Gaming engine?
+        Intermediate Answer: Unreal Engine, also known as UE, is a video game development tool from the video game and software development company Epic Games. With this tool, developers have the ability to build a simulation, edit videos or sound, and render animations.
+
+Sub-Question: What are the features of the Unreal Gaming engine?
+        Intermediate Answer: Unreal contains the following features: Nanite, Lumen, World Partition system, MetaSounds, and animations.
+
+Sub-Question: What is 3DS Max?
+        Intermediate Answer: Autodesk 3ds Max: Computer program. Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment. Autodesk 3ds Max Initial release date: April 1996. Autodesk 3ds Max Developer: Autodesk and Autodesk Media and Entertainment. Autodesk 3ds Max Programming languages: Python, C, and C++. Autodesk 3ds Max Frames per second: 30 frames per second. Autodesk 3ds Max Available in: English, German, French, Brazilian Portuguese, Japanese, Chinese, Korean. Autodesk 3ds Max License: Software as a service, Trialware. Autodesk 3ds Max Stable release: 2024.1 / May 17, 2023; 5 months ago. Autodesk 3ds Max® professional 3D modeling, rendering, and animation software enables you to create expansive worlds and premium designs. 3ds Max is a computer graphics program for creating 3D models, animations, and digital images. It's one of the most popular programs in the computer ... Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. 3ds Max is one most known software for 3d work, today we ... Duration: 10:34. Posted: Jan 9, 2020. 3ds Max is a professional 3D modeling and rendering program for design visualization, games, and animation. But before it became Autodesk's 3ds ... All in all, Autodesk 3ds Max is a practical software for learning and practicing animation, and it helps in developing skills required for 3D ...
+
+Sub-Question: What are the capabilities of 3DS Max in relation to VR and 3D modeling?
+        Intermediate Answer: With its integrated V-Ray rendering engine, designers can create photorealistic images and animations with a professional level of detail. The rendering capabilities of 3ds Max also extend to virtual reality, allowing for the creation of immersive VR experiences.
+
+What are the potential applications and limitations of Nvidia's CUDA set for parallelism computation in the context of VR and 3D modeling for the construction industry
+
+CUDA Nvidia can achieve higher parallelism and efficiency than general-purpose CPU code using parallel processes and fine-grained streams. It can be used for applications such as machine learning, computer graphics, scientific computing, and high-performance computing. It also provides direct access to the GPU's virtual instruction set and parallel computational elements for the execution of compute kernels, as well as best practices for using CUDA effectively, such as parallel execution and memory use optimization.
+
+Source Links:
+
+https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/
+
+https://developer.nvidia.com/blog/cuda-refresher-getting-started-with-cuda/
+
+https://www.turing.com/kb/understanding-nvidia-cuda
+
+https://www.infoworld.com/article/3299703/what-is-cuda-parallel-programming-for-gpus.html
+
+https://www.researchgate.net/publication/256495766_A_Survey_on_Parallel_Computing_and_its_Applications_in_Data-Parallel_Problems_Using_GPU_Architectures
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3496509/
+
+https://uweb.engr.arizona.edu/~ece569a/Readings/GPU_Papers/1.ComputingExperiences.pdf
+
+https://en.wikipedia.org/wiki/Graphics_processing_unit
+
+https://openmetal.io/docs/product-guides/private-cloud/gpu-parallel-computing/
+
+https://github.com/mikeroyal/AR-VR-Guide
+
+Thought Process:
+
+CUDA Nvidia can achieve higher parallelism and efficiency than general-purpose CPU code using parallel processes and fine-grained streams. It can be used for applications such as machine learning, computer graphics, scientific computing, and high-performance computing. It also provides direct access to the GPU's virtual instruction set and parallel computational elements for the execution of compute kernels, as well as best practices for using CUDA effectively, such as parallel execution and memory use optimization.
+
+Sub-Question: What is Nvidia's CUDA set?
+        Intermediate Answer: CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). With CUDA, developers are able to dramatically speed up computing applications by harnessing the power of GPUs.
+
+Sub-Question: What are the potential applications of Nvidia's CUDA set for parallelism computation?
+        Intermediate Answer: CUDA Nvidia can achieve higher parallelism and efficiency than general-purpose CPU code using parallel processes and fine-grained streams. CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on its own GPUs (graphics processing units) ... Missing: potential | Show results with:potential. This post introduces Dynamic Parallelism by example using a fast hierarchical algorithm for computing images of the Mandelbrot set. This is the ... In general, an application has a mix of parallel parts and sequential parts, so systems are designed with a mix of GPUs and CPUs in order to maximize overall ... There are numerous real-world applications of parallel processing, ranging from machine learning and computer graphics to scientific computing and high- ... CUDA is programming model specific to NVIDIA GPUs for SIMD workflows. · HIP (Heterogeneous-Computing Interface for Portability) works with both NVIDIA and AMD ... CUDA is a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, for the execution of compute kernels ... Learn how CUDA Programming works, and essential best practices for using CUDA effectively, such as parallel execution and memory use optimization. The CUDA parallel programming framework from NVIDIA is a particular implementation of the GPGPU paradigm. CUDA once was an acronym for Compute ... A kernel executes in parallel across a set of parallel threads. The programmer organizes these threads into a hierarchy of grids of thread blocks. A thread ...
+
+What are the technical challenges and solutions associated with adding support for Earth curvature in 3DS Max
+
+Solutions for adding support for Earth curvature in 3DS Max include using sky domes and curved horizon planes, using an environment map for the sky, creating worn edges with curvature in the data, applying earth curvature corrections, and using light to follow the curvature of the Earth.
+
+Source Links:
+
+http://forums.cgsociety.org/t/earths-curvature-atmospheric-refraction/1580547
+
+http://www.scriptspot.com/forums/3ds-max/general-scripting/earths-curvature-atmospheric-refraction
+
+https://forums.autodesk.com/t5/3ds-max-modeling/rendering-problem-with-curved-line/td-p/6273215
+
+https://www.mathscinotes.com/2010/11/straight-level-and-the-curvature-of-the-earth/
+
+https://computergraphics.stackexchange.com/questions/1700/earth-curvature-and-horizon-in-modeling-large-scenes
+
+https://www.quora.com/How-far-can-you-see-before-the-curvature-of-Earth-impacts-your-line-of-sight
+
+https://docs.nframes.com/knowledge-base/earth-curvature-and-other-additional-corrections
+
+https://forums.cgarchitect.com/topic/75776-fundamental-principles-of-modeling-terrain-landscape/
+
+https://www.goldensoftware.com/products/surfer/
+
+Thought Process:
+
+Solutions for adding support for Earth curvature in 3DS Max include using sky domes and curved horizon planes, using an environment map for the sky, creating worn edges with curvature in the data, applying earth curvature corrections, and using light to follow the curvature of the Earth.
+
+Sub-Question: What is 3DS Max?
+        Intermediate Answer: Autodesk 3ds Max: Computer program. Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment. Autodesk 3ds Max Initial release date: April 1996. Autodesk 3ds Max Developer: Autodesk and Autodesk Media and Entertainment. Autodesk 3ds Max Programming languages: Python, C, and C++. Autodesk 3ds Max Frames per second: 30 frames per second. Autodesk 3ds Max Available in: English, German, French, Brazilian Portuguese, Japanese, Chinese, Korean. Autodesk 3ds Max License: Software as a service, Trialware. Autodesk 3ds Max Stable release: 2024.1 / May 17, 2023; 5 months ago. Autodesk 3ds Max® professional 3D modeling, rendering, and animation software enables you to create expansive worlds and premium designs. 3ds Max is a computer graphics program for creating 3D models, animations, and digital images. It's one of the most popular programs in the computer ... Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. 3ds Max is a professional 3D modeling and rendering program for design visualization, games, and animation. But before it became Autodesk's 3ds ... 3ds Max is one most known software for 3d work, today we ... Duration: 10:34. Posted: Jan 9, 2020. All in all, Autodesk 3ds Max is a practical software for learning and practicing animation, and it helps in developing skills required for 3D ... 3ds Max uses the polygon method, which offers users control over individual meshes through X, Y and Z coordinates. These display as a bunch of ... 3ds Max has powerful modeling and rendering tools for creating professional-quality 3D scenes and design visualizations. Learn about 3ds Max features.
+
+Sub-Question: What are the technical challenges associated with adding support for Earth curvature in 3DS Max?
+        Intermediate Answer: Hi,. I've used sky domes and curved horizon planes before but now I need to show accurate images and animations including the Earth's ... Missing: challenges adding. If I want to model a large environment, how can I solve the problem of earth curvature and horizon? ... By clicking “Post Your Answer”, you agree ... Missing: challenges adding support. Hi,. I've used sky domes and curved horizon planes before but now I need to show accurate images and animations which include the Earth's ... Missing: challenges adding. i have tried to import a DWG file (including 3D objects) to 3D MAX.. but all my curved objects are broken and angular.. i tried every possible ... Missing: adding Earth. Earth Curvature Calculation. I have written about how to compute the curvature of the Earth over a given distance in another post using Equation ... The Earth curves away from a horizontal line by 1/8th of inch for every 100 feet of horizontal distance. The Earth's curvature will swamp out ... So you will see strange issues when using euler curves to manipulate biped keys. I simply would switch back to TCB and only use the euler mode ... Missing: adding Earth. it depends on how tall you are. and the height of the thing you're looking at. and refraction effects. and the clarity of the air. Hi Arno: I'm trying to better understand the implications of this discussion, with a goal of at least identifying what projection my background imagery should ... What are the most common STL file errors and how will they affect your ability to export models for 3D printing? Learn to identify the errors you may ...
+
+Sub-Question: What are the solutions for adding support for Earth curvature in 3DS Max?
+        Intermediate Answer: Hi, I've used sky domes and curved horizon planes before but now I need to show accurate images and animations including the Earth's ... Missing: adding | Show results with:adding. If I want to model a large environment, how can I solve the problem of earth curvature and horizon? I use an environment map for the sky, but ... Missing: support | Show results with:support. You can create worn edges with curvature in the data ... Duration: 1:55. Posted: Jan 19, 2017. Hi,. I've used sky domes and curved horizon planes before but now I need to show accurate images and animations which include the Earth's ... Missing: solutions adding. Hi, OK, I finally had some time to look at this issue. I made a simple test object with 3 attached effects on a row at 250 meter apart. My goal in this post is to show how we can correct the LOS distance to provide the required horizontal distance, which can then be used to read ... Here's part 4 of my video tutorial discussing how to create ... Duration: 12:47. Posted: Nov 19, 2016. Use earth curvature corrections. (Optional). Specifies whether correction for the earth's curvature will be applied. Unchecked—No curvature correction will be ... Light follows the curvature of the Earth. The Earth is a sphere, and light travels in straight lines. When light hits th. Continue reading.
+
+What are the implications and potential benefits of automating the process of adding offsets to relevant geometries and polygons in 3D modeling
+
+Automating the process of adding offsets to relevant geometries and polygons in 3D modeling can reduce the file size of a 3D model, allow for easier transitions between geometric primitives, enable the creation of unique designs with fewer polygons, enhance productivity and reduce labour costs, and allow for faster design parts using familiar CAD modeling concepts.
+
+Source Links:
+
+https://blog.spatial.com/the-main-benefits-and-disadvantages-of-polygonal-modeling
+
+https://overlyapp.com/blog/3d-model-optimization-pros-cons/
+
+https://www.quora.com/Why-do-we-use-triangles-in-3D-rendering-instead-of-squares
+
+https://www.linkedin.com/advice/0/how-do-you-balance-artistic-expression-technical-constraints
+
+https://www.selfcad.com/blog/top-8-options-for-designing-3d-objects-in-3d-modeling-software
+
+https://professional3dservices.com/blog/polygonal-modeling.html
+
+https://www.sciencedirect.com/science/article/pii/S2666307422000171
+
+https://www.adobe.com/products/substance3d/discover/3d-polygon-modeling.html
+
+https://www.queppelin.com/high-poly-vs-low-poly-in-3d-modeling/amp/
+
+https://www.rhino3d.com/features
+
+Thought Process:
+
+Automating the process of adding offsets to relevant geometries and polygons in 3D modeling can reduce the file size of a 3D model, allow for easier transitions between geometric primitives, enable the creation of unique designs with fewer polygons, enhance productivity and reduce labour costs, and allow for faster design parts using familiar CAD modeling concepts.
+
+Sub-Question: What is 3D modeling?
+        Intermediate Answer: In 3D computer graphics, 3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated... A 3D model is essentially made up of vertices, which come together to form a mesh and act as the core of the 3D model. Each point on the model ... Three-dimensional (3D) models represent a physical body using a collection of points in 3D space, connected by various geometric entities such as triangles, ... 3D modeling is the process of creating 3D models of an object or a surface using special software. Learn more about the 3D modeling process. The 3D modeling process produces a digital object capable of being fully animated, making it an essential process for character animation and special effects. 3D modeling is a computer graphics process of creating a mathematical representation of a 3-dimensional object or shape using specialized software. 3D modeling enables more accurate, efficient and cost-effective machine control. Instead of using traditional survey stakes, machine operators ... 3D modeling is the process of creating a 3D object using 3D modeling programs. CAD modeling is visually represented as a two-dimensional image using 3D ... More specifically, 3D modeling involves an artist creating a mesh by manipulating points in virtual space (also known as vertices). Essentially, ... 3D modeling is the process of creating a 3D representation of any surface or object by manipulating polygons, edges, and vertices in simulated ... 3D modeling describes the use of software tools, such as computer-aided design (CAD) programs, to create 3D digital representations of objects.
+
+Sub-Question: What are the potential benefits of automating the process of adding offsets to relevant geometries and polygons in 3D modeling?
+        Intermediate Answer: As designers require more “high-fidelity” designs (smoother looking surfaces, more details, etc.), they can increase the number of polygons in their models. Missing: potential automating adding offsets geometries. Generally speaking, 3D model optimization is the process of reducing a 3D model's file size. The file size can be reduced by optimizing the ... Triangles are used in 3D rendering because they are the simplest polygon to work with and have some advantages over other polygonal shapes, such as squares or ... Polygonal modeling offers several advantages over other 3D modeling techniques, such as NURBS, subdivision surfaces, or sculpting. It is easy to ... In this paper, we present a new methodology to reconstruct 3D buildings from historical maps, we developed it with the aim of automating the ... There are many advantages associated with the ability to create transitions between geometric primitives automatically. Compared to manual ... Traditional manual retopology is a time-intensive process that requires the identification of basic shapes and flows of form inside a model and ... Polygonal modeling allows the designers to create a unique design compared to other modeling techniques. It requires fewer polygons to create ... Missing: automating offsets. Scanning enhances productivity and reduces labour costs, allowing entrepreneurs to add value throughout the building process. ... 3D modelling might be a ... ... Benefits of 3D Scanning. Page 14. Geomagic Design X | Introduction. 3. The ... Design parts faster using familiar CAD modeling concepts. An Innovative Design ...
+
+What is the impact of this automation on the performance of the VR application being developed
+
+Automation can reduce the cost, time, and risk of traditional methods, improve worker safety, better outcomes, and cost savings, and enable designers and engineers to virtually visualize and manipulate 3D models, accelerating the prototyping phase.
+
+Source Links:
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9517547/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963057/
+
+https://www.spiceworks.com/tech/innovation/guest-article/how-ar-vr-is-driving-automation-and-robotics-for-manufacturers/amp/
+
+https://www.mdpi.com/2076-3417/12/14/7249
+
+https://www.sciencedirect.com/science/article/abs/pii/S0926580520301394
+
+https://www.sciencedirect.com/science/article/abs/pii/S0003687020301782
+
+https://www.qualitestgroup.com/insights/blog/testing-ar-and-vr-how-quality-assurance-can-ensure-user-satisfaction-in-real-life/
+
+https://www.pwc.com/us/en/tech-effect/emerging-tech/virtual-reality-study.html
+
+https://www.perforce.com/blog/vcs/virtual-reality-software-development
+
+https://www.perforce.com/blog/vcs/5-uses-virtual-reality
+
+Thought Process:
+
+Automation can reduce the cost, time, and risk of traditional methods, improve worker safety, better outcomes, and cost savings, and enable designers and engineers to virtually visualize and manipulate 3D models, accelerating the prototyping phase.
+
+Sub-Question: What is the automation being used for?
+        Intermediate Answer: Automation crosses all functions within industry from installation, integration, and maintenance to design, procurement, and management. Automation even reaches into the marketing and sales functions of these industries.
+
+Sub-Question: How does automation affect the performance of the VR application?
+        Intermediate Answer: AR/VR technologies provide significant time savings to the manufacturing build process through an optimized decision process, which positively ... One of the main benefits of VR and AR for industrial automation training is that they can reduce the cost, time, and risk of traditional methods ... It offers significant advantages, such as improved worker safety, better outcomes, and cost savings. Robotic automation is revolutionizing the creative landscape. Artists are using robots to paint, sculpt, or even perform, while designers ... Today, simulations can be viewed in VR, supporting remote collaboration. With more elements being integrated into the simulation, what once ... VR application research therefore aims at investigating underlying mechanisms needed to substitute former driving experiences with other, ... Beyond bringing in and showing production data more efficiently, AR's other main advantage is it can connect field workers with more experienced ... Automated testing can be particularly useful in testing the functionality and performance of the application at scale, by simulating a large ... VR enables designers and engineers to virtually visualize and manipulate 3D models, accelerating the prototyping phase. By identifying design ... Usage Analytics: Businesses can optimize their AR / VR services and boost customer satisfaction by analyzing usage data and user feedback.
+
+What are the industry standards and best practices for VR and 3D modeling in the construction industry
+
+3D modeling technology empowers architects, engineers, and designers to foster greater creativity and experimentation in their endeavors. It ... 3D modeling lets you easily visualize the project from all angles to identify potential issues. Make 3D models a part of your workflow in the ... Industry standards are the guidelines, specifications, and conventions that are widely accepted and followed by the 3D modeling community and ... Best practices happen behind the scenes, while standards govern how you present yourself to people outside your department or company. Standards ... The construction industry is using virtual reality to help improve design, safety and training. Discover how VR is altering the field. VR training reduces the risk of accidents on site and ensures compliance with industry regulations. Improved client engagement. VR technology ... Research by the Construction Industry Training Board (CITB) reveals that VR-based safety training reduces accidents by up to 45% and speeds up ... 2. Achieving Precision and Accuracy ... 3D modelling offers a level of design precision that is difficult to achieve through traditional methods ... The CheckMate standard includes best-practices that are used internally by major visual effects companies, game developers, advertising agencies and designers, ... The value of AR/VR technology in construction begins in the planning and permission stages
+
+Source Links:
+
+https://www.cadcrowd.com/blog/a-guide-to-3d-modeling-and-3d-models-for-your-company-in-the-construction-industry/
+
+https://www.cadcrowd.com/blog/3d-modeling-for-the-construction-industry-how-3d-models-help-construction-companies/
+
+https://www.linkedin.com/advice/0/how-do-you-use-industry-standards-your-3d-modeling
+
+https://www.engineersrule.com/why-do-we-have-3d-standards-and-whats-best-practice/
+
+https://www.business.com/articles/how-virtual-reality-is-changing-construction/
+
+https://program-ace.com/blog/vr-in-construction/
+
+https://utilitiesone.com/enhancing-safety-measures-in-construction-engineering-with-virtual-reality
+
+https://www.novatr.com/blog/benefits-of-3d-modelling-in-construction
+
+https://resources.turbosquid.com/checkmate/what-is-checkmate/checkmate-3d-modeling-standard/
+
+https://pixelplex.io/blog/ar-vr-in-construction/
+
+Thought Process:
+
+3D modeling technology empowers architects, engineers, and designers to foster greater creativity and experimentation in their endeavors. It ... 3D modeling lets you easily visualize the project from all angles to identify potential issues. Make 3D models a part of your workflow in the ... Industry standards are the guidelines, specifications, and conventions that are widely accepted and followed by the 3D modeling community and ... Best practices happen behind the scenes, while standards govern how you present yourself to people outside your department or company. Standards ... The construction industry is using virtual reality to help improve design, safety and training. Discover how VR is altering the field. VR training reduces the risk of accidents on site and ensures compliance with industry regulations. Improved client engagement. VR technology ... Research by the Construction Industry Training Board (CITB) reveals that VR-based safety training reduces accidents by up to 45% and speeds up ... 2. Achieving Precision and Accuracy ... 3D modelling offers a level of design precision that is difficult to achieve through traditional methods ... The CheckMate standard includes best-practices that are used internally by major visual effects companies, game developers, advertising agencies and designers, ... The value of AR/VR technology in construction begins in the planning and permission stages
+
+Sub-Question: What is the construction industry?
+        Intermediate Answer: Construction is a general term meaning the art and science to form objects, systems, or organizations, and comes from Latin constructio and Old French construction. To construct is the verb: the act of building, and the noun is construction: how... The construction sector comprises establishments primarily engaged in the construction of buildings or engineering projects (e.g., highways and utility ... In its most widely used context, construction covers the processes involved in delivering buildings, infrastructure, industrial facilities, and associated ... Construction industry refers to the industrial branch of manufacturing and trade related to building, repairing, renovating, and maintaining infrastructures. It ... Construction is a vital industry, creating buildings and spaces that connect communities, providing jobs, and improving society. The benefits of construction. The rise of the construction profession coincided with the rise of modern science in the 17th and 18th centuries. Scientific breakthroughs ... Construction is a high hazard industry that comprises a wide range of activities involving construction, alteration, and/or repair. THE CONSTRUCTION INDUSTRY IS divided into two sectors: Non-residential, which has three sub-sectors (heavy industrial, institutional and commercial, ... Construction is an industry that includes the erection, maintenance, and repair of buildings and other immobile structures, and the building of roads and ... Industrial construction deals with factories, power plants, warehouses, and other highly specialized facilities. It also includes the design, installation, and ... The construction industry is characterized by cycles of growth and depression. The outcome of companies that make construction materials is tied closely to the ...
+
+Sub-Question: What are the industry standards and best practices for VR and 3D modeling in the construction industry?
+        Intermediate Answer: 3D modeling technology empowers architects, engineers, and designers to foster greater creativity and experimentation in their endeavors. It ... 3D modeling lets you easily visualize the project from all angles to identify potential issues. Make 3D models a part of your workflow in the ... Industry standards are the guidelines, specifications, and conventions that are widely accepted and followed by the 3D modeling community and ... Missing: construction | Show results with:construction. Best practices happen behind the scenes, while standards govern how you present yourself to people outside your department or company. Standards ... The construction industry is using virtual reality to help improve design, safety and training. Discover how VR is altering the field. VR training reduces the risk of accidents on site and ensures compliance with industry regulations. Improved client engagement. VR technology ... Research by the Construction Industry Training Board (CITB) reveals that VR-based safety training reduces accidents by up to 45% and speeds up ... 2. Achieving Precision and Accuracy ... 3D modelling offers a level of design precision that is difficult to achieve through traditional methods ... The CheckMate standard includes best-practices that are used internally by major visual effects companies, game developers, advertising agencies and designers, ... The value of AR/VR technology in construction begins in the planning and permission stages. Combined with 3D modeling software and BIM, ...
+
+What are the potential market opportunities and trends in the VR and 3D modeling space for the construction industry
+
+The global 3D mapping and modeling market size reached US$ 7.8 Billion in 2023 and is expected to reach US$ 32.2 Billion by 2032, exhibiting a growth rate (CAGR) of 16.9% during 2024-2032. The key trends driving the growth of the VR and 3D modeling market in the construction industry are the increasing demand for 3D animation across mobile applications, games, and movies for an immersive experience, the use of computer-generated simulations and 3D models, the use of Artificial Intelligence (AI) to automate processes, and the use of 3D animation software to transform creative industries.
+
+Source Links:
+
+https://www.business.com/articles/how-virtual-reality-is-changing-construction/
+
+https://pixelplex.io/blog/ar-vr-in-construction/
+
+https://program-ace.com/blog/vr-in-construction/
+
+https://www.letsbuild.com/blog/vr-in-construction-management
+
+https://onix-systems.com/blog/4-best-ways-to-benefit-from-vr-in-construction
+
+https://4experience.co/virtual-reality-in-construction-benefits/
+
+https://www.intellectsoft.net/blog/8-emerging-construction-technology-trends/
+
+https://buildertrend.com/blog/future-of-construction/
+
+https://www.linkedin.com/pulse/3d-architecture-software-market-gain-77-2032-markets-us
+
+Thought Process:
+
+The global 3D mapping and modeling market size reached US$ 7.8 Billion in 2023 and is expected to reach US$ 32.2 Billion by 2032, exhibiting a growth rate (CAGR) of 16.9% during 2024-2032. The key trends driving the growth of the VR and 3D modeling market in the construction industry are the increasing demand for 3D animation across mobile applications, games, and movies for an immersive experience, the use of computer-generated simulations and 3D models, the use of Artificial Intelligence (AI) to automate processes, and the use of 3D animation software to transform creative industries.
+
+Sub-Question: What is the current size of the VR and 3D modeling market in the construction industry?
+        Intermediate Answer: Report Overview: The global 3D mapping and modeling market size reached US$ 7.8 Billion in 2023. Looking forward, IMARC Group expects the market to reach US$ 32.2 Billion by 2032, exhibiting a growth rate (CAGR) of 16.9% during 2024-2032.
+
+Sub-Question: What are the key trends driving the growth of the VR and 3D modeling market in the construction industry?
+        Intermediate Answer: Virtual reality takes 3D modeling to new heights by giving designers the opportunity to work with vivid and lifelike structures, instead of the age-old scaled ... Some factors driving the growth of the 3D mapping and modeling market are rising demand for 3D animation across mobile applications, games, and movies for an ... Virtual reality in construction involves the use of computer-generated simulations and 3D models ... market and highlights key industry developments and trends. The growth of the 3D Animation for Construction Industry Market was mainly driven by the increasing R&D spending across the world. Major ... Several trends are shaping the industry, driving innovation and growth. Artificial Intelligence (AI) is one such trend. AI is being used to ... The 3D Mapping and 3D Modelling Market is expected to reach USD 6.52 billion in 2023 and grow at a CAGR of 14.67% to reach USD 12.92 billion by 2028. Key drivers and trends fueling this growth are outlined in the latest market report. 3D Animation Software: Transforming Creative Industries. 3D ... The global 3D mapping & 3D modeling market size was estimated at USD 5.8 billion in 2022 and is expected to grow a CAGR of 14.8% from 2023 to 2030. The growing demand for 3D mapping and modeling in the construction industry is one of the key factors driving the market growth. Different areas like medical, ... The value of AR/VR technology in construction begins in the planning and permission stages. Combined with 3D modeling software and BIM
